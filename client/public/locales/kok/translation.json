@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "भाषा निवड करा",
+    "subtitle": "स्मार्ट शेती सल्ला प्रणालीत आपल स्वागत",
+    "select": "तुमची भाषा निवडा",
+    "proceed": "पुढे जा"
+  },
+  "auth": {
+    "loginForm": "लॉगिन फॉर्म",
+    "signupForm": "साइनअप फॉर्म",
+    "login": "लॉगिन",
+    "signup": "साइनअप",
+    "username": "यूज़रनेम",
+    "usernamePlaceholder": "यूज़रनेम दर्ज करें",
+    "phone": "फ़ोन नंबर",
+    "phonePlaceholder": "फ़ोन नंबर दर्ज करें",
+    "location": "स्थान",
+    "locationPlaceholder": "अपना स्थान दर्ज करें",
+    "invalidCredentials": "अवैध जानकारी। कृपया जाँचें।",
+    "fillAllFields": "कृपया सभी फ़ील्ड भरें।",
+    "invalidPhone": "सही 10-अंकीय फ़ोन नंबर दर्ज करें।",
+    "userExists": "यूज़रनेम या फ़ोन नंबर पहले से मौजूद है।",
+    "registerSuccess": "पंजीकरण सफल! कृपया लॉगिन करें।"
+  },
+  "nav": {
+    "home": "मुखपृष्ठ",
+    "leafDetection": "पान रोग ओळख",
+    "chatbot": "स्मार्ट चैटबोट",
+    "language": "भाषा"
+  },
+  "leaf": {
+    "title": "पान रोग ओळख",
+    "chooseImage": "पानाचो फोटो निवड",
+    "submit": "सबमिट",
+    "analyzing": "विश्लेषण करताय...",
+    "alertNoImage": "कृपया फोटो निवडा.",
+    "errorUnknown": "अज्ञात त्रुटी जालो.",
+    "errorSubmit": "सबमिट करताना काहीतरी चुकलां."
+  },
+  "chat": {
+    "title": "स्मार्ट शेती चैटबोट",
+    "welcome": "स्वागत! मी तुमका शेतीसंबंधी प्रश्नांत मदत करू.",
+    "placeholder": "शेती, हवामान वा दरांव विषीं विचारात...",
+    "send": "पाटव"
+  },
+  "home": {
+    "welcome": "स्वागत शेतकरी",
+    "name": "नांव",
+    "location": "स्थान",
+    "language": "भाषा",
+    "namePlaceholder": "तुमचें नांव द्या",
+    "locationPlaceholder": "तुमचें स्थान द्या",
+    "selectLanguage": "भाषा निवड करा",
+    "submit": "सबमिट",
+    "thankYou": "आभार, {{name}}!",
+    "receivedFrom": "{{location}} ताळय तुमची माहिती मेल्यां.",
+    "languageResponse": "आमका {{language}} भाषेन उत्तर दिआचें.",
+    "lang": {
+      "english": "इंग्रजी",
+      "hindi": "हिंदी",
+      "kannada": "कन्नड",
+      "tamil": "तमिळ",
+      "telugu": "तेलुगु",
+      "malayalam": "मल्याळम",
+      "punjabi": "पंजाबी",
+      "marathi": "मराठी",
+      "bengali": "बंगाली",
+      "gujarati": "गुजराती",
+      "odia": "ओडिया",
+      "assamese": "असामी",
+      "konkani": "कोंकणी",
+      "kashmiri": "काश्मीरी",
+      "nepali": "नेपाळी",
+      "sanskrit": "संस्कृत",
+      "urdu": "उर्दू"
+    }
+  }
+}

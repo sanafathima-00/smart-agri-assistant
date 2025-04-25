@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "भाषा चुनें",
+    "subtitle": "स्मार्ट कृषि सलाह प्रणाली में आपका स्वागत है",
+    "select": "अपनी भाषा चुनें",
+    "proceed": "आगे बढ़ें"
+  },
+  "auth": {
+    "loginForm": "लॉगिन फ़ॉर्म",
+    "signupForm": "साइनअप फ़ॉर्म",
+    "login": "लॉगिन",
+    "signup": "साइनअप",
+    "username": "उपयोगकर्ता नाम",
+    "usernamePlaceholder": "उपयोगकर्ता नाम दर्ज करें",
+    "phone": "फ़ोन नंबर",
+    "phonePlaceholder": "फ़ोन नंबर दर्ज करें",
+    "location": "स्थान",
+    "locationPlaceholder": "अपना स्थान दर्ज करें",
+    "invalidCredentials": "अमान्य प्रमाण-पत्र। कृपया अपनी प्रविष्टियाँ जांचें।",
+    "fillAllFields": "कृपया सभी फ़ील्ड भरें।",
+    "invalidPhone": "कृपया एक मान्य 10-अंकीय फ़ोन नंबर दर्ज करें।",
+    "userExists": "उपयोगकर्ता नाम या फ़ोन नंबर पहले से पंजीकृत है।",
+    "registerSuccess": "पंजीकरण सफल! कृपया लॉगिन करें।"
+  },
+  "nav": {
+    "home": "मुख्य पृष्ठ",
+    "leafDetection": "पत्ते की बीमारी की पहचान",
+    "chatbot": "चैटबॉट",
+    "language": "भाषा"
+  },
+  "leaf": {
+    "title": "पत्ते की बीमारी की पहचान",
+    "chooseImage": "एक पत्ते की छवि चुनें",
+    "submit": "जमा करें",
+    "analyzing": "विश्लेषण हो रहा है...",
+    "alertNoImage": "कृपया जमा करने से पहले एक छवि चुनें।",
+    "errorUnknown": "अज्ञात त्रुटि हुई।",
+    "errorSubmit": "जमा करते समय कुछ गलत हो गया।"
+  },
+  "chat": {
+    "title": "स्मार्ट कृषि चैटबॉट",
+    "welcome": "स्वागत है! मैं खेती से जुड़े सवालों में आपकी मदद करने के लिए यहाँ हूँ।",
+    "placeholder": "खेती, मौसम या कीमतों के बारे में पूछें...",
+    "send": "भेजें"
+  },
+  "home": {
+    "welcome": "स्वागत है किसान",
+    "name": "नाम",
+    "location": "स्थान",
+    "language": "भाषा",
+    "namePlaceholder": "अपना नाम दर्ज करें",
+    "locationPlaceholder": "अपना स्थान दर्ज करें",
+    "selectLanguage": "भाषा चुनें",
+    "submit": "जमा करें",
+    "thankYou": "धन्यवाद, {{name}}!",
+    "receivedFrom": "हमें {{location}} से आपकी जानकारी प्राप्त हुई है।",
+    "languageResponse": "हम {{language}} में उत्तर देंगे।",
+    "lang": {
+      "english": "अंग्रेज़ी",
+      "hindi": "हिंदी",
+      "kannada": "कन्नड़",
+      "tamil": "तमिल",
+      "telugu": "तेलुगु",
+      "malayalam": "मलयालम",
+      "punjabi": "पंजाबी",
+      "marathi": "मराठी",
+      "bengali": "बंगाली",
+      "gujarati": "गुजराती",
+      "odia": "ओड़िया",
+      "assamese": "असामी",
+      "konkani": "कोंकणी",
+      "kashmiri": "कश्मीरी",
+      "nepali": "नेपाली",
+      "sanskrit": "संस्कृत",
+      "urdu": "उर्दू"
+    }
+  }
+}

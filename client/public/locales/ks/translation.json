@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "زبان چھنو",
+    "subtitle": "سمارٹ زراعت مشورہ نظام مے خوش آمدید",
+    "select": "اپنی زبان چھنو",
+    "proceed": "آگے بڑھو"
+  },
+  "auth": {
+    "loginForm": "لاگ ان فارم",
+    "signupForm": "سائں اپ فارم",
+    "login": "لاگ ان",
+    "signup": "سائں اپ",
+    "username": "یوزر نیم",
+    "usernamePlaceholder": "یوزر نیم درج کریں",
+    "phone": "فون نمبر",
+    "phonePlaceholder": "فون نمبر درج کریں",
+    "location": "جائے مقام",
+    "locationPlaceholder": "اپنا مقام درج کریں",
+    "invalidCredentials": "غلط معلومات۔ براہ کرم دوبارہ چیک کریں۔",
+    "fillAllFields": "براہ کرم تمام خانے بھریں۔",
+    "invalidPhone": "درست 10 ہندسوں کا فون نمبر درج کریں۔",
+    "userExists": "یوزر نیم یا فون نمبر پہلے سے رجسٹرڈ ہے۔",
+    "registerSuccess": "رجسٹریشن کامیاب! براہ کرم لاگ ان کریں۔"
+  },
+  "nav": {
+    "home": "گھر",
+    "leafDetection": "پتہ بيماری پتا لگاؤ",
+    "chatbot": "سمارٹ چیٹ بوٹ",
+    "language": "زبان"
+  },
+  "leaf": {
+    "title": "پتہ بيماری پتا لگاؤ",
+    "chooseImage": "پتہ چھوی چون",
+    "submit": "جمع",
+    "analyzing": "تجزیہ کرن...",
+    "alertNoImage": "براہ کرم تصویر منتخب کریں۔",
+    "errorUnknown": "اک نامعلوم غلطی پیش آئی ہے۔",
+    "errorSubmit": "جمع کرن دوران کچھ غلط ہو گیا۔"
+  },
+  "chat": {
+    "title": "سمارٹ زراعت چیٹ بوٹ",
+    "welcome": "خوش آمدید! ب باغبانی متعلق سوالن ہند جواب چھے میہ فراہمی.",
+    "placeholder": "زراعت، موسم یا قیمت بارے پوچھو...",
+    "send": "بھیجو"
+  },
+  "home": {
+    "welcome": "خوش آمدید کسان صاحب",
+    "name": "ناو",
+    "location": "مقام",
+    "language": "زبان",
+    "namePlaceholder": "اپنا ناو درج کرو",
+    "locationPlaceholder": "اپنا مقام درج کرو",
+    "selectLanguage": "زبان انتخاب کرو",
+    "submit": "جمع",
+    "thankYou": "شکریہ، {{name}}!",
+    "receivedFrom": "ساہ مضمون {{location}} ہند ملا.",
+    "languageResponse": "ہم {{language}} ہند جواب دیوو.",
+    "lang": {
+      "english": "انگریزی",
+      "hindi": "ہندی",
+      "kannada": "کنڑا",
+      "tamil": "تمل",
+      "telugu": "تیلگو",
+      "malayalam": "ملیالم",
+      "punjabi": "پنجابی",
+      "marathi": "مراٹھی",
+      "bengali": "بنگالی",
+      "gujarati": "گجراتی",
+      "odia": "اوڑیہ",
+      "assamese": "آسامیہ",
+      "konkani": "کونکنی",
+      "kashmiri": "کشمیری",
+      "nepali": "نیپالی",
+      "sanskrit": "سنسکرت",
+      "urdu": "اردو"
+    }
+  }
+}

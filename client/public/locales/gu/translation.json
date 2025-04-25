@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "ભાષા પસંદ કરો",
+    "subtitle": "સ્માર્ટ કૃષિ સલાહ વ્યવસ્થામાં આપનું સ્વાગત છે",
+    "select": "તમારી ભાષા પસંદ કરો",
+    "proceed": "આગળ વધો"
+  },
+  "auth": {
+    "loginForm": "લોગિન ફોર્મ",
+    "signupForm": "સાઇનઅપ ફોર્મ",
+    "login": "લોગિન",
+    "signup": "સાઇનઅપ",
+    "username": "યૂઝરનામ",
+    "usernamePlaceholder": "યૂઝરનામ દાખલ કરો",
+    "phone": "ફોન નંબર",
+    "phonePlaceholder": "ફોન નંબર દાખલ કરો",
+    "location": "સ્થળ",
+    "locationPlaceholder": "તમારું સ્થાન દાખલ કરો",
+    "invalidCredentials": "અમાન્ય માહિતી. કૃપા કરીને તપાસો.",
+    "fillAllFields": "બધા ફીલ્ડ ભરો.",
+    "invalidPhone": "માણ્ય ૧૦ અંકનો ફોન નંબર દાખલ કરો.",
+    "userExists": "યૂઝરનામ અથવા ફોન નંબર પહેલેથી નોંધાયેલ છે.",
+    "registerSuccess": "નોંધણી સફળ! કૃપા કરીને લોગિન કરો."
+  },
+  "nav": {
+    "home": "હોમ",
+    "leafDetection": "પાનની બીમારી શોધો",
+    "chatbot": "ચેટબોટ",
+    "language": "ભાષા"
+  },
+  "leaf": {
+    "title": "પાનની બીમારી શોધો",
+    "chooseImage": "પાનનો ફોટો પસંદ કરો",
+    "submit": "સબમિટ કરો",
+    "analyzing": "વિશ્લેષણ થઈ રહ્યું છે...",
+    "alertNoImage": "મહેરબાની કરીને સબમિટ કરતા પહેલાં તસવીર પસંદ કરો.",
+    "errorUnknown": "અજ્ઞાત ભૂલ થઈ.",
+    "errorSubmit": "સબમિટ કરતી વખતે કંઈક ખોટું થયું."
+  },
+  "chat": {
+    "title": "સ્માર્ટ કૃષિ ચેટબોટ",
+    "welcome": "સ્વાગત છે! હું ખેતી સંબંધિત પ્રશ્નોમાં મદદ કરવા માટે અહીં છું.",
+    "placeholder": "ખેતી, હવામાન કે કિંમતો વિશે પૂછો...",
+    "send": "મોકલો"
+  },
+  "home": {
+    "welcome": "કૃષિકે સ્વાગત છે",
+    "name": "નામ",
+    "location": "સ્થળ",
+    "language": "ભાષા",
+    "namePlaceholder": "તમારું નામ લખો",
+    "locationPlaceholder": "તમારું સ્થાન લખો",
+    "selectLanguage": "ભાષા પસંદ કરો",
+    "submit": "સબમિટ કરો",
+    "thankYou": "આભાર, {{name}}!",
+    "receivedFrom": "અમે {{location}}માંથી તમારી માહિતી મેળવી છે.",
+    "languageResponse": "અમે {{language}}માં જવાબ આપશું.",
+    "lang": {
+      "english": "અંગ્રેજી",
+      "hindi": "હિન્દી",
+      "kannada": "કન્નડ",
+      "tamil": "તમિલ",
+      "telugu": "તેલુગુ",
+      "malayalam": "મલયાળમ",
+      "punjabi": "પંજાબી",
+      "marathi": "મરાઠી",
+      "bengali": "બંગાળી",
+      "gujarati": "ગુજરાતી",
+      "odia": "ઓડિયા",
+      "assamese": "અસામી",
+      "konkani": "કોંકણી",
+      "kashmiri": "કાશ્મીરી",
+      "nepali": "નેપાળી",
+      "sanskrit": "સંસ્કૃત",
+      "urdu": "ઉર્દૂ"
+    }
+  }
+}

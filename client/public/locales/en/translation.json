@@ -1,0 +1,92 @@
+{
+  "languageSelect": {
+    "title": "Select Language",
+    "subtitle": "Welcome to the Smart Agriculture Advisory System",
+    "select": "Choose your language",
+    "proceed": "Proceed"
+  },
+  "auth": {
+    "loginForm": "Login Form",
+    "signupForm": "Signup Form",
+    "login": "Login",
+    "signup": "Signup",
+    "username": "Username",
+    "usernamePlaceholder": "Enter username",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter phone number",
+    "location": "Location",
+    "locationPlaceholder": "Enter your location",
+    "invalidCredentials": "Invalid credentials. Please check your inputs.",
+    "fillAllFields": "Please fill all fields.",
+    "invalidPhone": "Please enter a valid 10-digit phone number.",
+    "userExists": "Username or phone number already registered.",
+    "registerSuccess": "Registration successful! Please login."
+  },
+  "nav": {
+    "home": "Home",
+    "leafDetection": "Leaf Detection",
+    "chatbot": "Chatbot",
+    "language": "Language",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "leaf": {
+    "title": "Leaf Disease Detection",
+    "chooseImage": "Choose a leaf image",
+    "submit": "Submit",
+    "analyzing": "Analyzing...",
+    "alertNoImage": "Please select an image before submitting.",
+    "errorUnknown": "Unknown error occurred.",
+    "errorSubmit": "Something went wrong while submitting."
+  },
+  "chat": {
+    "title": "Smart Agri Chatbot",
+    "welcome": "Welcome! I am here to assist you with farming-related queries.",
+    "placeholder": "Ask about farming, weather or prices...",
+    "send": "Send"
+  },
+  "home": {
+    "welcome": "Welcome Farmer",
+    "name": "Name",
+    "location": "Location",
+    "language": "Language",
+    "namePlaceholder": "Enter your name",
+    "locationPlaceholder": "Enter your location",
+    "selectLanguage": "Select a language",
+    "submit": "Submit",
+    "thankYou": "Thank you, {{name}}!",
+    "receivedFrom": "We’ve received your info from {{location}}.",
+    "languageResponse": "We’ll respond in {{language}}.",
+    "login": "Login",
+    "register": "Register",
+    "alreadyAccount": "Already have an account?",
+    "noAccount": "Don’t have an account?",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "loginSuccess": "Login successful!",
+    "loginFail": "Login failed. Please try again.",
+    "registerSuccess": "Registration successful!",
+    "registerFail": "Registration failed. Try again.",
+    "lang": {
+      "english": "English",
+      "hindi": "Hindi",
+      "kannada": "Kannada",
+      "tamil": "Tamil",
+      "telugu": "Telugu",
+      "malayalam": "Malayalam",
+      "punjabi": "Punjabi",
+      "marathi": "Marathi",
+      "bengali": "Bengali",
+      "gujarati": "Gujarati",
+      "odia": "Odia",
+      "assamese": "Assamese",
+      "konkani": "Konkani",
+      "kashmiri": "Kashmiri",
+      "nepali": "Nepali",
+      "sanskrit": "Sanskrit",
+      "urdu": "Urdu"
+    }
+  }
+}

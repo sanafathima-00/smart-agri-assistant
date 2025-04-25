@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "ਭਾਸ਼ਾ ਚੁਣੋ",
+    "subtitle": "ਸਮਾਰਟ ਖੇਤੀ ਸਲਾਹ ਪ੍ਰਣਾਲੀ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ",
+    "select": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ",
+    "proceed": "ਅੱਗੇ ਵਧੋ"
+  },
+  "auth": {
+    "loginForm": "ਲੌਗਇਨ ਫਾਰਮ",
+    "signupForm": "ਸਾਈਨਅੱਪ ਫਾਰਮ",
+    "login": "ਲੌਗਇਨ",
+    "signup": "ਸਾਈਨਅੱਪ",
+    "username": "ਉਪਭੋਗੀ ਨਾਮ",
+    "usernamePlaceholder": "ਉਪਭੋਗੀ ਨਾਮ ਦਿਓ",
+    "phone": "ਫੋਨ ਨੰਬਰ",
+    "phonePlaceholder": "ਫੋਨ ਨੰਬਰ ਦਿਓ",
+    "location": "ਟਿਕਾਣਾ",
+    "locationPlaceholder": "ਆਪਣਾ ਟਿਕਾਣਾ ਦਿਓ",
+    "invalidCredentials": "ਗਲਤ ਜਾਣਕਾਰੀ। ਕਿਰਪਾ ਕਰਕੇ ਜਾਂਚ ਕਰੋ।",
+    "fillAllFields": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਖੇਤਰ ਭਰੋ।",
+    "invalidPhone": "ਠੀਕ 10 ਅੰਕਾਂ ਵਾਲਾ ਫੋਨ ਨੰਬਰ ਦਿਓ।",
+    "userExists": "ਉਪਭੋਗੀ ਨਾਮ ਜਾਂ ਫੋਨ ਨੰਬਰ ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਰਜਿਸਟਰਡ ਹੈ।",
+    "registerSuccess": "ਰਜਿਸਟਰੇਸ਼ਨ ਸਫਲ! ਕਿਰਪਾ ਕਰਕੇ ਲੌਗਇਨ ਕਰੋ।"
+  },
+  "nav": {
+    "home": "ਘਰ",
+    "leafDetection": "ਪੱਤੇ ਦੀ ਬਿਮਾਰੀ ਦੀ ਪਛਾਣ",
+    "chatbot": "ਚੈਟਬੋਟ",
+    "language": "ਭਾਸ਼ਾ"
+  },
+  "leaf": {
+    "title": "ਪੱਤੇ ਦੀ ਬਿਮਾਰੀ ਦੀ ਪਛਾਣ",
+    "chooseImage": "ਇੱਕ ਪੱਤੇ ਦੀ ਤਸਵੀਰ ਚੁਣੋ",
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "analyzing": "ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "alertNoImage": "ਕਿਰਪਾ ਕਰਕੇ ਤਸਵੀਰ ਜਮ੍ਹਾਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਚੁਣੋ।",
+    "errorUnknown": "ਅਣਜਾਣ ਗਲਤੀ ਹੋਈ ਹੈ।",
+    "errorSubmit": "ਜਮ੍ਹਾਂ ਕਰਨ ਦੌਰਾਨ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।"
+  },
+  "chat": {
+    "title": "ਸਮਾਰਟ ਖੇਤੀ ਚੈਟਬੋਟ",
+    "welcome": "ਸੁਆਗਤ ਹੈ! ਮੈਂ ਖੇਤੀ ਨਾਲ ਸੰਬੰਧਤ ਤੁਹਾਡੀਆਂ ਪੁੱਛਤਾਂਸ਼ਾਂ ਵਿੱਚ ਮਦਦ ਲਈ ਇੱਥੇ ਹਾਂ।",
+    "placeholder": "ਖੇਤੀ, ਮੌਸਮ ਜਾਂ ਕੀਮਤਾਂ ਬਾਰੇ ਪੁੱਛੋ...",
+    "send": "ਭੇਜੋ"
+  },
+  "home": {
+    "welcome": "ਸੁਆਗਤ ਹੈ ਕਿਸਾਨ ਜੀ",
+    "name": "ਨਾਮ",
+    "location": "ਸਥਾਨ",
+    "language": "ਭਾਸ਼ਾ",
+    "namePlaceholder": "ਆਪਣਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "locationPlaceholder": "ਆਪਣਾ ਸਥਾਨ ਦਰਜ ਕਰੋ",
+    "selectLanguage": "ਭਾਸ਼ਾ ਚੁਣੋ",
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "thankYou": "ਧੰਨਵਾਦ, {{name}}!",
+    "receivedFrom": "{{location}} ਤੋਂ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਮਿਲੀ ਹੈ।",
+    "languageResponse": "ਅਸੀਂ {{language}} ਵਿੱਚ ਜਵਾਬ ਦੇਵਾਂਗੇ।",
+    "lang": {
+      "english": "ਅੰਗਰੇਜ਼ੀ",
+      "hindi": "ਹਿੰਦੀ",
+      "kannada": "ਕੰਨੜ",
+      "tamil": "ਤਮਿਲ",
+      "telugu": "ਤੇਲਗੂ",
+      "malayalam": "ਮਲਿਆਲਮ",
+      "punjabi": "ਪੰਜਾਬੀ",
+      "marathi": "ਮਰਾਠੀ",
+      "bengali": "ਬੰਗਾਲੀ",
+      "gujarati": "ਗੁਜਰਾਤੀ",
+      "odia": "ਓଡ਼ੀਆ",
+      "assamese": "ਅਸਾਮੀ",
+      "konkani": "ਕੋਂਕਣੀ",
+      "kashmiri": "ਕਸ਼ਮੀਰੀ",
+      "nepali": "ਨੇਪਾਲੀ",
+      "sanskrit": "ਸੰਸਕ੍ਰਿਤ",
+      "urdu": "ਉਰਦੂ"
+    }
+  }
+}

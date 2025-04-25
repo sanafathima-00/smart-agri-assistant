@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "भाषा निवडा",
+    "subtitle": "स्मार्ट कृषी सल्ला प्रणालीमध्ये आपले स्वागत आहे",
+    "select": "आपली भाषा निवडा",
+    "proceed": "पुढे जा"
+  },
+  "auth": {
+    "loginForm": "लॉगिन फॉर्म",
+    "signupForm": "साईनअप फॉर्म",
+    "login": "लॉगिन",
+    "signup": "साईनअप",
+    "username": "वापरकर्त्याचे नाव",
+    "usernamePlaceholder": "वापरकर्त्याचे नाव लिहा",
+    "phone": "फोन नंबर",
+    "phonePlaceholder": "फोन नंबर लिहा",
+    "location": "स्थान",
+    "locationPlaceholder": "तुमचे स्थान लिहा",
+    "invalidCredentials": "अवैध माहिती. कृपया तपासा.",
+    "fillAllFields": "सर्व माहिती भरा.",
+    "invalidPhone": "योग्य १० अंकी फोन नंबर लिहा.",
+    "userExists": "वापरकर्त्याचे नाव किंवा फोन नंबर आधीच नोंदणीकृत आहे.",
+    "registerSuccess": "नोंदणी यशस्वी! कृपया लॉगिन करा."
+  },
+  "nav": {
+    "home": "मुख्यपृष्ठ",
+    "leafDetection": "पान रोग शोध",
+    "chatbot": "चॅटबॉट",
+    "language": "भाषा"
+  },
+  "leaf": {
+    "title": "पान रोग शोध",
+    "chooseImage": "पानाचा फोटो निवडा",
+    "submit": "सबमिट करा",
+    "analyzing": "विश्लेषण करत आहे...",
+    "alertNoImage": "सबमिट करण्यापूर्वी कृपया फोटो निवडा.",
+    "errorUnknown": "अज्ञात त्रुटी आली.",
+    "errorSubmit": "सबमिट करताना काहीतरी चुकले."
+  },
+  "chat": {
+    "title": "स्मार्ट कृषी चॅटबॉट",
+    "welcome": "स्वागत आहे! शेतीशी संबंधित तुमच्या प्रश्नांना उत्तर देण्यासाठी मी येथे आहे.",
+    "placeholder": "शेती, हवामान किंवा किंमतींबद्दल विचारा...",
+    "send": "पाठवा"
+  },
+  "home": {
+    "welcome": "शेतकरी मित्रा, स्वागत आहे",
+    "name": "नाव",
+    "location": "स्थान",
+    "language": "भाषा",
+    "namePlaceholder": "तुमचे नाव टाका",
+    "locationPlaceholder": "तुमचे स्थान टाका",
+    "selectLanguage": "भाषा निवडा",
+    "submit": "सबमिट करा",
+    "thankYou": "धन्यवाद, {{name}}!",
+    "receivedFrom": "{{location}} येथून तुमची माहिती मिळाली आहे.",
+    "languageResponse": "आम्ही {{language}} मध्ये उत्तर देऊ.",
+    "lang": {
+      "english": "इंग्रजी",
+      "hindi": "हिंदी",
+      "kannada": "कन्नड",
+      "tamil": "तमिळ",
+      "telugu": "तेलुगू",
+      "malayalam": "मल्याळम",
+      "punjabi": "पंजाबी",
+      "marathi": "मराठी",
+      "bengali": "बंगाली",
+      "gujarati": "गुजराती",
+      "odia": "ओडिया",
+      "assamese": "आसामी",
+      "konkani": "कोंकणी",
+      "kashmiri": "काश्मीरी",
+      "nepali": "नेपाली",
+      "sanskrit": "संस्कृत",
+      "urdu": "उर्दू"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "भाषा चयनय",
+    "subtitle": "स्मार्ट कृषि परामर्श प्रणाली स्वागतं करोति",
+    "select": "स्वभाषां चयनय",
+    "proceed": "अग्रे गच्छ"
+  },
+  "auth": {
+    "loginForm": "प्रवेशन प्रपत्रम्",
+    "signupForm": "पंजीकरण प्रपत्रम्",
+    "login": "प्रवेशः",
+    "signup": "पंजीकरणम्",
+    "username": "प्रयोक्तृनाम",
+    "usernamePlaceholder": "प्रयोक्तृनाम योजयतु",
+    "phone": "दूरवाणीसंख्या",
+    "phonePlaceholder": "दूरवाणीसंख्या योजयतु",
+    "location": "स्थानम्",
+    "locationPlaceholder": "स्वस्थानं लिखतु",
+    "invalidCredentials": "अमान्यं विवरणम्। कृपया परीक्षां कुरुत।",
+    "fillAllFields": "कृपया सर्वाणि स्थानेषु पूरयतु।",
+    "invalidPhone": "दशाङ्कीयं यथावत् दूरवाणीसंख्या योजयतु।",
+    "userExists": "प्रयोक्तृनाम वा दूरवाणीसंख्या पूर्वमेव पंजीकृतम् अस्ति।",
+    "registerSuccess": "पंजीकरणं सफलम्! कृपया प्रवेशनं कुरुत।"
+  },
+  "nav": {
+    "home": "गृहपृष्ठम्",
+    "leafDetection": "पत्ररोगनिरीक्षणम्",
+    "chatbot": "संवादकः",
+    "language": "भाषा"
+  },
+  "leaf": {
+    "title": "पत्ररोगनिरीक्षणम्",
+    "chooseImage": "पत्रस्य चित्रं चिनुत",
+    "submit": "प्रेषयत",
+    "analyzing": "विश्लेषणं क्रियते...",
+    "alertNoImage": "कृपया प्रेषणात् पूर्वं चित्रं चिनुत।",
+    "errorUnknown": "अज्ञातं त्रुटिः अभवत्।",
+    "errorSubmit": "प्रेषणे त्रुटिः अभवत्।"
+  },
+  "chat": {
+    "title": "स्मार्टकृषिसंवादकः",
+    "welcome": "स्वागतम्! कृषिसम्बद्धप्रश्नेषु सहाय्यं दातुं अहम् अत्र अस्मि।",
+    "placeholder": "कृषिः, मौसमः वा मूल्यं विषये पृच्छत...",
+    "send": "प्रेषयत"
+  },
+  "home": {
+    "welcome": "स्वागतम् कृषक",
+    "name": "नाम",
+    "location": "स्थानम्",
+    "language": "भाषा",
+    "namePlaceholder": "स्वस्य नाम लेखयत",
+    "locationPlaceholder": "स्वस्य स्थानं लेखयत",
+    "selectLanguage": "भाषां चिनुत",
+    "submit": "प्रेषयत",
+    "thankYou": "धन्यवादः {{name}}!",
+    "receivedFrom": "{{location}} इत्यस्मात् भवतः सूचना प्राप्ता।",
+    "languageResponse": "{{language}} भाषायाम् प्रत्युत्तरं दास्यामः।",
+    "lang": {
+      "english": "आङ्ग्लभाषा",
+      "hindi": "हिन्दी",
+      "kannada": "कन्नड",
+      "tamil": "तमिळ्",
+      "telugu": "तेलुगु",
+      "malayalam": "मलयाळम्",
+      "punjabi": "पञ्जाबी",
+      "marathi": "मराठी",
+      "bengali": "बङ्गाली",
+      "gujarati": "गुजराती",
+      "odia": "ओडिया",
+      "assamese": "असामी",
+      "konkani": "कोंकणी",
+      "kashmiri": "कश्मीरी",
+      "nepali": "नेपाली",
+      "sanskrit": "संस्कृतम्",
+      "urdu": "उर्दू"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "ভাষা নির্বাচন করুন",
+    "subtitle": "স্মার্ট কৃষি পরামর্শ ব্যবস্থায় স্বাগতম",
+    "select": "আপনার ভাষা বেছে নিন",
+    "proceed": "আগান"
+  },
+  "auth": {
+    "loginForm": "লগইন ফর্ম",
+    "signupForm": "সাইনআপ ফর্ম",
+    "login": "লগইন",
+    "signup": "সাইনআপ",
+    "username": "ব্যবহারকারীর নাম",
+    "usernamePlaceholder": "ব্যবহারকারীর নাম লিখুন",
+    "phone": "ফোন নম্বর",
+    "phonePlaceholder": "ফোন নম্বর লিখুন",
+    "location": "অবস্থান",
+    "locationPlaceholder": "আপনার অবস্থান লিখুন",
+    "invalidCredentials": "অবৈধ তথ্য। অনুগ্রহ করে যাচাই করুন।",
+    "fillAllFields": "সব তথ্য পূরণ করুন।",
+    "invalidPhone": "সঠিক ১০-সংখ্যার ফোন নম্বর দিন।",
+    "userExists": "ব্যবহারকারীর নাম বা ফোন নম্বর ইতিমধ্যেই নিবন্ধিত।",
+    "registerSuccess": "নিবন্ধন সফল! অনুগ্রহ করে লগইন করুন।"
+  },
+  "nav": {
+    "home": "হোম",
+    "leafDetection": "পাতা রোগ শনাক্তকরণ",
+    "chatbot": "চ্যাটবট",
+    "language": "ভাষা"
+  },
+  "leaf": {
+    "title": "পাতা রোগ শনাক্তকরণ",
+    "chooseImage": "একটি পাতার ছবি নির্বাচন করুন",
+    "submit": "জমা দিন",
+    "analyzing": "বিশ্লেষণ করা হচ্ছে...",
+    "alertNoImage": "জমা দেওয়ার আগে অনুগ্রহ করে একটি ছবি নির্বাচন করুন।",
+    "errorUnknown": "অজানা ত্রুটি ঘটেছে।",
+    "errorSubmit": "জমা দেওয়ার সময় কিছু ভুল হয়েছে।"
+  },
+  "chat": {
+    "title": "স্মার্ট কৃষি চ্যাটবট",
+    "welcome": "স্বাগতম! কৃষি সম্পর্কিত প্রশ্নে আমি সাহায্য করতে এখানে আছি।",
+    "placeholder": "কৃষি, আবহাওয়া বা দামের বিষয়ে জিজ্ঞাসা করুন...",
+    "send": "পাঠান"
+  },
+  "home": {
+    "welcome": "কৃষককে স্বাগতম",
+    "name": "নাম",
+    "location": "অবস্থান",
+    "language": "ভাষা",
+    "namePlaceholder": "আপনার নাম লিখুন",
+    "locationPlaceholder": "আপনার অবস্থান লিখুন",
+    "selectLanguage": "একটি ভাষা নির্বাচন করুন",
+    "submit": "জমা দিন",
+    "thankYou": "ধন্যবাদ, {{name}}!",
+    "receivedFrom": "{{location}} থেকে আমরা আপনার তথ্য পেয়েছি।",
+    "languageResponse": "আমরা {{language}} ভাষায় সাড়া দেব।",
+    "lang": {
+      "english": "ইংরেজি",
+      "hindi": "হিন্দি",
+      "kannada": "কন্নড়",
+      "tamil": "তামিল",
+      "telugu": "তেলেগু",
+      "malayalam": "মালায়ালম",
+      "punjabi": "পাঞ্জাবি",
+      "marathi": "মারাঠি",
+      "bengali": "বাংলা",
+      "gujarati": "গুজরাটি",
+      "odia": "ওড়িয়া",
+      "assamese": "অসমীয়া",
+      "konkani": "কোকনি",
+      "kashmiri": "কাশ্মীরি",
+      "nepali": "নেপালি",
+      "sanskrit": "সংস্কৃত",
+      "urdu": "উর্দু"
+    }
+  }
+}

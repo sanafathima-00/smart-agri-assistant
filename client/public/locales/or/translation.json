@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "ଭାଷା ବାଛନ୍ତୁ",
+    "subtitle": "ସ୍ମାର୍ଟ କୃଷି ପରାମର୍ଶ ପ୍ରଣାଳୀରେ ସ୍ବାଗତ",
+    "select": "ଆପଣଙ୍କର ଭାଷା ବାଛନ୍ତୁ",
+    "proceed": "ଆଗକୁ ବଢନ୍ତୁ"
+  },
+  "auth": {
+    "loginForm": "ଲଗଇନ ଫର୍ମ",
+    "signupForm": "ସାଇନଅପ ଫର୍ମ",
+    "login": "ଲଗଇନ",
+    "signup": "ସାଇନଅପ",
+    "username": "ଉପଯୋଗକାରୀ ନାମ",
+    "usernamePlaceholder": "ଉପଯୋଗକାରୀ ନାମ ଦିଅନ୍ତୁ",
+    "phone": "ଫୋନ୍ ନମ୍ବର",
+    "phonePlaceholder": "ଫୋନ୍ ନମ୍ବର ଲେଖନ୍ତୁ",
+    "location": "ଅବସ୍ଥାନ",
+    "locationPlaceholder": "ଆପଣଙ୍କର ଅବସ୍ଥାନ ଦିଅନ୍ତୁ",
+    "invalidCredentials": "ଅବୈଧ ତଥ୍ୟ। ଦୟାକରି ଯାଞ୍ଚ କରନ୍ତୁ।",
+    "fillAllFields": "ସମସ୍ତ ତଥ୍ୟ ଭରନ୍ତୁ।",
+    "invalidPhone": "ଠିକ୍ ୧୦ ଅଙ୍କର ଫୋନ୍ ନମ୍ବର ଦିଅନ୍ତୁ।",
+    "userExists": "ଉପଯୋଗକାରୀ ନାମ କିମ୍ବା ଫୋନ୍ ନମ୍ବର ପୂର୍ବରୁ ରେଜିଷ୍ଟର ହୋଇଛି।",
+    "registerSuccess": "ନୋନ୍ଦଣୀ ସଫଳ! ଦୟାକରି ଲଗଇନ କରନ୍ତୁ।"
+  },
+  "nav": {
+    "home": "ଘର",
+    "leafDetection": "ପତ୍ର ରୋଗ ଚିହ୍ନଟ",
+    "chatbot": "ଚାଟବୋଟ୍",
+    "language": "ଭାଷା"
+  },
+  "leaf": {
+    "title": "ପତ୍ର ରୋଗ ଚିହ୍ନଟ",
+    "chooseImage": "ପତ୍ର ଛବି ବାଛନ୍ତୁ",
+    "submit": "ଦାଖଲ କରନ୍ତୁ",
+    "analyzing": "ବିଶ୍ଳେଷଣ ହେଉଛି...",
+    "alertNoImage": "ଦୟାକରି ଦାଖଲ କରିବା ପୂର୍ବରୁ ଏକ ଛବି ବାଛନ୍ତୁ।",
+    "errorUnknown": "ଅଜଣା ତ୍ରୁଟି ଘଟିଛି।",
+    "errorSubmit": "ଦାଖଲ କରିବା ସମୟରେ କିଛି ତ୍ରୁଟି ଘଟିଛି।"
+  },
+  "chat": {
+    "title": "ସ୍ମାର୍ଟ କୃଷି ଚାଟବୋଟ୍",
+    "welcome": "ସ୍ବାଗତ! ମୁଁ ଆପଣଙ୍କୁ କୃଷି ସମ୍ପର୍କିତ ପ୍ରଶ୍ନଗୁଡିକରେ ସହଯୋଗ କରିବି।",
+    "placeholder": "କୃଷି, ପାଣିପାଗ କିମ୍ବା ମୂଲ୍ୟ ବିଷୟରେ ପଚାରନ୍ତୁ...",
+    "send": "ପଠାନ୍ତୁ"
+  },
+  "home": {
+    "welcome": "ସ୍ବାଗତ କୃଷକ",
+    "name": "ନାମ",
+    "location": "ଅବସ୍ଥାନ",
+    "language": "ଭାଷା",
+    "namePlaceholder": "ଆପଣଙ୍କ ନାମ ପ୍ରବେଶ କରନ୍ତୁ",
+    "locationPlaceholder": "ଆପଣଙ୍କ ଅବସ୍ଥାନ ପ୍ରବେଶ କରନ୍ତୁ",
+    "selectLanguage": "ଏକ ଭାଷା ବାଛନ୍ତୁ",
+    "submit": "ଦାଖଲ କରନ୍ତୁ",
+    "thankYou": "ଧନ୍ୟବାଦ, {{name}}!",
+    "receivedFrom": "ଆମେ {{location}} ରୁ ଆପଣଙ୍କ ସୂଚନା ପାଇଛୁ।",
+    "languageResponse": "ଆମେ {{language}} ରେ ପ୍ରତିଉତ୍ତର ଦେବୁ।",
+    "lang": {
+      "english": "ଇଂରାଜୀ",
+      "hindi": "ହିନ୍ଦୀ",
+      "kannada": "କନ୍ନଡ",
+      "tamil": "ତାମିଲ",
+      "telugu": "ତେଲୁଗୁ",
+      "malayalam": "ମଲୟାଳମ୍",
+      "punjabi": "ପଞ୍ଜାବୀ",
+      "marathi": "ମରାଠୀ",
+      "bengali": "ବେଙ୍ଗାଲୀ",
+      "gujarati": "ଗୁଜରାଟୀ",
+      "odia": "ଓଡ଼ିଆ",
+      "assamese": "ଅସମୀୟ",
+      "konkani": "କୋଙ୍କଣୀ",
+      "kashmiri": "କାଶ୍ମୀରୀ",
+      "nepali": "ନେପାଳୀ",
+      "sanskrit": "ସଂସ୍କୃତ",
+      "urdu": "ଉର୍ଦୁ"
+    }
+  }
+}

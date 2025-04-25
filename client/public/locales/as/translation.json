@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "ভাষা বাছনি কৰক",
+    "subtitle": "স্মাৰ্ট কৃষি পৰামৰ্শ প্ৰণালীলৈ স্বাগতম",
+    "select": "আপোনাৰ ভাষা বাছক",
+    "proceed": "অগ্ৰসর হওক"
+  },
+  "auth": {
+    "loginForm": "লগিন ফৰ্ম",
+    "signupForm": "চাইন আপ ফৰ্ম",
+    "login": "লগিন",
+    "signup": "চাইন আপ",
+    "username": "ব্যৱহাৰকাৰীৰ নাম",
+    "usernamePlaceholder": "ব্যৱহাৰকাৰীৰ নাম লিখক",
+    "phone": "ফোন নম্বৰ",
+    "phonePlaceholder": "ফোন নম্বৰ লিখক",
+    "location": "অৱস্থান",
+    "locationPlaceholder": "আপোনাৰ অৱস্থান লিখক",
+    "invalidCredentials": "অবৈধ তথ্য। অনুগ্ৰহ কৰি পুনৰ পৰীক্ষা কৰক।",
+    "fillAllFields": "সমস্ত তথ্য পূৰণ কৰক।",
+    "invalidPhone": "সঠিক ১০ সংখ্যাৰ ফোন নম্বৰ লিখক।",
+    "userExists": "ব্যৱহাৰকাৰীৰ নাম বা ফোন নম্বৰ ইতিমধ্যে ৰেজিষ্টাৰ কৰা হৈছে।",
+    "registerSuccess": "পঞ্জীয়ন সফল! অনুগ্ৰহ কৰি লগিন কৰক।"
+  },
+  "nav": {
+    "home": "ঘৰ",
+    "leafDetection": "পাতৰ ৰোগ চিনাক্তকৰণ",
+    "chatbot": "চেটবট",
+    "language": "ভাষা"
+  },
+  "leaf": {
+    "title": "পাতৰ ৰোগ চিনাক্তকৰণ",
+    "chooseImage": "এটা পাতৰ ছবি বাছক",
+    "submit": "জমা কৰক",
+    "analyzing": "বিশ্লেষণ কৰা হৈছে...",
+    "alertNoImage": "অনুগ্ৰহ কৰি জমা দিয়াৰ আগতে এটা ছবি বাছক।",
+    "errorUnknown": "অজ্ঞাত ত্ৰুটি সংঘটিত হৈছে।",
+    "errorSubmit": "জমা দিয়াৰ সময়ত কিবা এটা ভুল হ'ল।"
+  },
+  "chat": {
+    "title": "স্মাৰ্ট কৃষি চেটবট",
+    "welcome": "স্বাগতম! মই আপোনাক কৃষি-সম্পৰ্কীয় প্ৰশ্নত সহায় কৰিব।",
+    "placeholder": "কৃষি, বতৰৰ বা দামৰ বিষয়ে সুধক...",
+    "send": "পঠিয়াওক"
+  },
+  "home": {
+    "welcome": "কৃষকে স্বাগতম",
+    "name": "নাম",
+    "location": "অৱস্থান",
+    "language": "ভাষা",
+    "namePlaceholder": "আপোনাৰ নাম লিখক",
+    "locationPlaceholder": "আপোনাৰ অৱস্থান লিখক",
+    "selectLanguage": "এটা ভাষা বাছনি কৰক",
+    "submit": "জমা কৰক",
+    "thankYou": "ধন্যবাদ, {{name}}!",
+    "receivedFrom": "আমাৰ ওচৰত {{location}} ৰ পৰা আপোনাৰ তথ্য পোৱা গ'ল।",
+    "languageResponse": "আমাৰ উত্তৰ {{language}} ভাষাত হব।",
+    "lang": {
+      "english": "ইংৰাজী",
+      "hindi": "হিন্দী",
+      "kannada": "কানাড়ী",
+      "tamil": "তামিল",
+      "telugu": "তেলুগু",
+      "malayalam": "মালায়ালম",
+      "punjabi": "পঞ্জাবী",
+      "marathi": "মাৰাঠী",
+      "bengali": "বেঙ্গালী",
+      "gujarati": "গুজৰাটি",
+      "odia": "ওড়িয়া",
+      "assamese": "অসমীয়া",
+      "konkani": "কোঁকণী",
+      "kashmiri": "কাশ্মীৰী",
+      "nepali": "নেপালী",
+      "sanskrit": "সংস্কৃত",
+      "urdu": "উৰ্দু"
+    }
+  }
+}

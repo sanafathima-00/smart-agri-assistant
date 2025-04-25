@@ -1,0 +1,78 @@
+{
+  "languageSelect": {
+    "title": "زبان منتخب کریں",
+    "subtitle": "اسمارٹ زرعی مشورہ نظام میں خوش آمدید",
+    "select": "اپنی زبان منتخب کریں",
+    "proceed": "آگے بڑھیں"
+  },
+  "auth": {
+    "loginForm": "لاگ ان فارم",
+    "signupForm": "سائن اپ فارم",
+    "login": "لاگ ان",
+    "signup": "سائن اپ",
+    "username": "یوزر نیم",
+    "usernamePlaceholder": "یوزر نیم درج کریں",
+    "phone": "فون نمبر",
+    "phonePlaceholder": "فون نمبر درج کریں",
+    "location": "مقام",
+    "locationPlaceholder": "اپنا مقام درج کریں",
+    "invalidCredentials": "غلط معلومات۔ براہ کرم تصدیق کریں۔",
+    "fillAllFields": "براہ کرم تمام خانے پر کریں۔",
+    "invalidPhone": "درست 10 ہندسوں کا فون نمبر درج کریں۔",
+    "userExists": "یوزر نیم یا فون نمبر پہلے ہی رجسٹرڈ ہے۔",
+    "registerSuccess": "رجسٹریشن کامیاب! براہ کرم لاگ ان کریں۔"
+  },
+  "nav": {
+    "home": "ہوم",
+    "leafDetection": "پتوں کی بیماری کی شناخت",
+    "chatbot": "چیٹ بوٹ",
+    "language": "زبان"
+  },
+  "leaf": {
+    "title": "پتوں کی بیماری کی شناخت",
+    "chooseImage": "پتے کی تصویر منتخب کریں",
+    "submit": "جمع کریں",
+    "analyzing": "تجزیہ ہو رہا ہے...",
+    "alertNoImage": "براہ کرم جمع کرنے سے پہلے ایک تصویر منتخب کریں۔",
+    "errorUnknown": "نامعلوم خرابی واقع ہوئی۔",
+    "errorSubmit": "جمع کرنے کے دوران کچھ غلط ہو گیا۔"
+  },
+  "chat": {
+    "title": "اسمارٹ زرعی چیٹ بوٹ",
+    "welcome": "خوش آمدید! میں زراعت سے متعلق سوالات میں آپ کی مدد کے لیے حاضر ہوں۔",
+    "placeholder": "زراعت، موسم یا قیمتوں کے بارے میں پوچھیں...",
+    "send": "بھیجیں"
+  },
+  "home": {
+    "welcome": "خوش آمدید کسان",
+    "name": "نام",
+    "location": "مقام",
+    "language": "زبان",
+    "namePlaceholder": "اپنا نام درج کریں",
+    "locationPlaceholder": "اپنا مقام درج کریں",
+    "selectLanguage": "زبان منتخب کریں",
+    "submit": "جمع کریں",
+    "thankYou": "شکریہ، {{name}}!",
+    "receivedFrom": "ہم نے {{location}} سے آپ کی معلومات حاصل کر لی ہیں۔",
+    "languageResponse": "ہم {{language}} میں جواب دیں گے۔",
+    "lang": {
+      "english": "انگریزی",
+      "hindi": "ہندی",
+      "kannada": "کنڑا",
+      "tamil": "تمل",
+      "telugu": "تلگو",
+      "malayalam": "ملیالم",
+      "punjabi": "پنجابی",
+      "marathi": "مراٹھی",
+      "bengali": "بنگالی",
+      "gujarati": "گجراتی",
+      "odia": "اوڈیا",
+      "assamese": "اسامی",
+      "konkani": "کونکنی",
+      "kashmiri": "کشمیری",
+      "nepali": "نیپالی",
+      "sanskrit": "سنسکرت",
+      "urdu": "اردو"
+    }
+  }
+}
