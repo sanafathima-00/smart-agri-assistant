@@ -37,6 +37,19 @@
     "errorUnknown": "ਅਣਜਾਣ ਗਲਤੀ ਹੋਈ ਹੈ।",
     "errorSubmit": "ਜਮ੍ਹਾਂ ਕਰਨ ਦੌਰਾਨ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।"
   },
+  "prediction": {
+    "title": "ਭਵਿੱਖਬਾਣੀ ਨਤੀਜਾ",
+    "crop": "ਫਸਲ",
+    "disease": "ਬਿਮਾਰੀ",
+    "confidence": "ਆਤਮਵਿਸ਼ਵਾਸ",
+    "symptoms": "ਲੱਛਣ",
+    "cause": "ਕਾਰਨ",
+    "organicMeasures": "ਜੈਵਿਕ ਉਪਾਅ",
+    "chemicalMeasures": "ਰਸਾਇਣਿਕ ਉਪਾਅ",
+    "advisoryNote": "ਸਲਾਹ ਨੋਟ",
+    "noOrganicMeasures": "– ਕੋਈ ਵਿਸ਼ੇਸ਼ ਜੈਵਿਕ ਉਪਾਅ ਨਹੀਂ ਦਿੱਤੇ ਗਏ।",
+    "noChemicalMeasures": "– ਕੋਈ ਵਿਸ਼ੇਸ਼ ਰਸਾਇਣਿਕ ਉਪਾਅ ਨਹੀਂ ਦਿੱਤੇ ਗਏ।"
+  },
   "chat": {
     "title": "ਸਮਾਰਟ ਖੇਤੀ ਚੈਟਬੋਟ",
     "welcome": "ਸੁਆਗਤ ਹੈ! ਮੈਂ ਖੇਤੀ ਨਾਲ ਸੰਬੰਧਤ ਤੁਹਾਡੀਆਂ ਪੁੱਛਤਾਂਸ਼ਾਂ ਵਿੱਚ ਮਦਦ ਲਈ ਇੱਥੇ ਹਾਂ।",

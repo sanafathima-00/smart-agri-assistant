@@ -37,6 +37,19 @@
     "errorUnknown": "अज्ञातं त्रुटिः अभवत्।",
     "errorSubmit": "प्रेषणे त्रुटिः अभवत्।"
   },
+  "prediction": {
+    "title": "पूर्वानुमान परिणामः",
+    "crop": "कृषिः",
+    "disease": "रोगः",
+    "confidence": "विश्वासः",
+    "symptoms": "लक्षणानि",
+    "cause": "कारणम्",
+    "organicMeasures": "जैविक उपायाः",
+    "chemicalMeasures": "रासायनिक उपायाः",
+    "advisoryNote": "परामर्शसूचना",
+    "noOrganicMeasures": "– विशेषः जैविक उपायः न प्रदत्तः।",
+    "noChemicalMeasures": "– विशेषः रासायनिक उपायः न प्रदत्तः।"
+  },
   "chat": {
     "title": "स्मार्टकृषिसंवादकः",
     "welcome": "स्वागतम्! कृषिसम्बद्धप्रश्नेषु सहाय्यं दातुं अहम् अत्र अस्मि।",

@@ -37,6 +37,19 @@
     "errorUnknown": "अज्ञात त्रुटी जालो.",
     "errorSubmit": "सबमिट करताना काहीतरी चुकलां."
   },
+  "prediction": {
+    "title": "भविष्यवाणी परिणाम",
+    "crop": "पिक",
+    "disease": "आजार",
+    "confidence": "आत्मविश्वास",
+    "symptoms": "लक्षणां",
+    "cause": "कारण",
+    "organicMeasures": "सेंद्रीय उपाय",
+    "chemicalMeasures": "रासायनिक उपाय",
+    "advisoryNote": "सल्हा नोंद",
+    "noOrganicMeasures": "– कोणतेही विशिष्ट सेंद्रीय उपाय दिलेले नाहीत.",
+    "noChemicalMeasures": "– कोणतेही विशिष्ट रासायनिक उपाय दिलेले नाहीत."
+  },
   "chat": {
     "title": "स्मार्ट शेती चैटबोट",
     "welcome": "स्वागत! मी तुमका शेतीसंबंधी प्रश्नांत मदत करू.",

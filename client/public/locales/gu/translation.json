@@ -37,6 +37,19 @@
     "errorUnknown": "અજ્ઞાત ભૂલ થઈ.",
     "errorSubmit": "સબમિટ કરતી વખતે કંઈક ખોટું થયું."
   },
+  "prediction": {
+    "title": "અનુમાન પરિણામ",
+    "crop": "પાક",
+    "disease": "રોગ",
+    "confidence": "વિશ્વાસ",
+    "symptoms": "લક્ષણો",
+    "cause": "કારણ",
+    "organicMeasures": "જૈવિક પગલાં",
+    "chemicalMeasures": "રાસાયણિક પગલાં",
+    "advisoryNote": "સલાહ સૂચન",
+    "noOrganicMeasures": "– કોઈ નિશ્ચિત જૈવિક પગલાં આપવામાં આવ્યા નથી.",
+    "noChemicalMeasures": "– કોઈ નિશ્ચિત રાસાયણિક પગલાં આપવામાં આવ્યા નથી."
+  },
   "chat": {
     "title": "સ્માર્ટ કૃષિ ચેટબોટ",
     "welcome": "સ્વાગત છે! હું ખેતી સંબંધિત પ્રશ્નોમાં મદદ કરવા માટે અહીં છું.",

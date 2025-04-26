@@ -1,5 +1,5 @@
 .leaf-container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,16 +7,18 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 3vh; /* Push content lower */
+  padding-top: 3vh;
   box-sizing: border-box;
 }
+
 
 .leaf-background-overlay {
   background-image: url('../assets/bg.jpeg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   filter: blur(2px);
-  position: absolute;
+  position: fixed; /* ✅ make it fixed, not absolute */
   top: 0;
   left: 0;
   height: 100%;
@@ -29,6 +31,7 @@
   border-radius: 20px;
   max-width: 950px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .leaf-title {
@@ -45,6 +48,7 @@
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(46, 125, 50, 0.2);
   margin: 2rem 0;
+  width: 100%;
 }
 
 .leaf-form-inner-box {
@@ -78,7 +82,7 @@ input[type="file"] {
 }
 
 .leaf-custom-file-upload:hover {
-  background-color: #4caf50;
+  background-color: #2e7d32;
 }
 
 .leaf-preview {
@@ -117,6 +121,7 @@ button[disabled] {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(46, 125, 50, 0.15);
   margin-top: 2rem;
+  width: 100%;
 }
 
 /* ✅ Responsive Styles */
