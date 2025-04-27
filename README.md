@@ -6,7 +6,7 @@ Smart Agri Assistant is a full-stack web application designed to assist farmers 
 
 - 🌐 Language Selection (multi-language support using i18next)
 - 🧑‍🌾 Farmer Authentication (Signup/Login using User ID, phone number, and location)
-- 🏡 Home Page (Language re-selection)
+- 🏡 Home Page (Welcome message in selected language)
 - 🌱 Leaf Detection
   - Upload plant leaf images.
   - Detect diseases using **Gemini 1.5 Flash**.
@@ -86,7 +86,7 @@ smart-agri-assistant/
 
 - **Frontend:** React.js, i18next
 - **Backend:** Node.js, Express.js
-- **Databases:** (MongoDB / Filesystem for uploads)
+- **Databases:** MongoDB, Filesystem for uploads
 - **APIs:** Gemini 1.5 Flash, Groq LLaMA 3 70B
 - **Speech Services:** Web Speech API
 
