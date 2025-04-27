@@ -1,7 +1,6 @@
 // client/src/services/botServices.js
 
-const webhookUrl = 'https://chat-bot-webhook.onrender.com/webhook'; // updated to Render URL
-
+const webhookUrl = 'https://chat-bot-webhook.onrender.com/webhook';
 export async function sendMessageToBot(userMessage, language = "en") {
   try {
     const response = await fetch(webhookUrl, {
