@@ -27,6 +27,8 @@ smart-agri-assistant/
 │   ├── locales/
 │       ├── en/
 │       	└── translation.json
+│       ├── hi/
+│       	└── translation.json
 ├── client/                  
 │   ├── src/
 │       ├── assets/
@@ -93,7 +95,7 @@ smart-agri-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/smart-agri-assistant.git
+git clone https://github.com/sanafathima-00/smart-agri-assistant.git
 ```
 
 ### 2. Setup Client (Frontend)
@@ -111,7 +113,7 @@ Runs on [http://localhost:3000](http://localhost:3000)
 ```bash
 cd smart-agri-assistant/server
 npm install
-npm run dev
+node index.js
 ```
 
 Runs on [http://localhost:5000](http://localhost:5000)
