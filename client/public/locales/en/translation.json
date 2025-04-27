@@ -40,6 +40,19 @@
     "errorUnknown": "Unknown error occurred.",
     "errorSubmit": "Something went wrong while submitting."
   },
+  "prediction": {
+    "title": "Prediction Result",
+    "crop": "Crop",
+    "disease": "Disease",
+    "confidence": "Confidence",
+    "symptoms": "Symptoms",
+    "cause": "Cause",
+    "organicMeasures": "Organic Measures",
+    "chemicalMeasures": "Chemical Measures",
+    "advisoryNote": "Advisory Note",
+    "noOrganicMeasures": "– No specific organic measures provided.",
+    "noChemicalMeasures": "– No specific chemical measures provided."
+  },
   "chat": {
     "title": "Smart Agri Chatbot",
     "welcome": "Welcome! I am here to assist you with farming-related queries.",
