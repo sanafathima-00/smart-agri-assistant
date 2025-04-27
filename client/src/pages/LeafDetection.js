@@ -36,7 +36,7 @@ const LeafDetection = () => {
     formData.append("language", farmerLanguage);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/detect", formData);
+      const response = await axios.post("https://smart-agri-assistant-backend.onrender.com/api/detect", formData);
       if (response.data.success) {
         setResult(response.data.prediction);
       } else {
