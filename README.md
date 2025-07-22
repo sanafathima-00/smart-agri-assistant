@@ -1,130 +1,124 @@
-# 🌾 Smart Agri Assistant
+# **Smart Agriculture Assistant – Backend**
 
-Smart Agri Assistant is a full-stack web application designed to assist farmers in identifying plant diseases, handling queries, and providing multilingual support — using cutting-edge AI technologies.
+
+
+## 🌾 Project Overview
+
+The **Smart Agri Assistant Backend** powers the server-side logic of the Smart Agri Assistant platform. It handles user authentication, image uploads, disease detection via Gemini, multilingual response generation through Groq, and manages all MongoDB database operations securely and efficiently.
+
+---
 
 ## ✨ Features
 
-- 🌐 Language Selection (multi-language support using i18next)
-- 🧑‍🌾 Farmer Authentication (Signup/Login using User ID, phone number, and location)
-- 🏡 Home Page (Welcome message in selected language)
-- 🌱 Leaf Detection
-  - Upload plant leaf images.
-  - Detect diseases using **Gemini 1.5 Flash**.
-  - Translation handled via **Groq LLaMA 3 70B** model.
-- 🤖 Chatbot
-  - Conversational assistant.
-  - Responds in selected language.
-  - Powered by **Groq LLaMA 3 70B** model.
-- 🎤 Voice Support
-  - Speech recognition via Web Speech API.
-  - Text-to-speech responses.
+- 🔐 Farmer authentication using phone number, user ID, and location
+- 🌿 Image upload and disease detection with **Gemini 1.5 Flash**
+- 🌍 Multilingual translation via **Groq LLaMA 3 70B**
+- 📂 RESTful API endpoints for user, crop issue, and disease routes
+- 🧠 Helper functions for model interaction and translation
+- 💾 MongoDB storage with Mongoose models
 
-## 🏗️ Project Structure
+---
+
+## 🛠️ Tech Stack
+
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Database:** MongoDB (with Mongoose)  
+- **File Handling:** Multer  
+- **AI Integration:** Gemini 1.5 Flash, Groq LLaMA 3 70B  
+- **Config & Utils:** dotenv, cors, axios
+
+---
+
+## 🚀 Installation and Setup
+
+### Prerequisites
+
+- Node.js and npm installed  
+- MongoDB connection string  
+- API keys for Gemini and Groq
+
+### Steps
+
+1. Navigate to the server directory:
+   ```bash
+   cd smart-agri-assistant/server
+
+2. Install Dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file with the following:
+
+   ```env
+   PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   GEMINI_API_KEY=your_gemini_api_key
+   GROQ_API_KEY=your_groq_api_key
+   ```
+
+4. Start the Backend:
+
+   ```bash
+   node index.js
+   ```
+
+5. Server will be running at: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 📁 Project Structure (Backend only)
 
 ```
-smart-agri-assistant/
-├── public/
-│   ├── locales/
-│       ├── en/
-│       	└── translation.json
-│       ├── hi/
-│       	└── translation.json
-├── client/                  
-│   ├── src/
-│       ├── assets/
-│       	└── bg.jpeg
-│       ├── components/
-│       	└── DiseaseResultCard.js
-│       	└── DiseaseResultCard.css
-│       	└── Navbar.js
-│       	└── Navbar.css
-│       ├── pages/
-│       	└── AuthForm.js
-│       	└── AuthForm.css
-│       	└── Chatbot.js
-│       	└── Chatbot.css
-│       	└── Home.js
-│       	└── Home.css
-│       	└── LanguageSelection.js
-│       	└── LanguageSelection.css
-│       	└── LeafDetection.js
-│       	└── LeafDetection.css
-│       ├── services/
-│       	└── botServices.js
-│       	└── speechServices.js
-│       └── App.js
-│       └── App.css
-│       └── index.js
-│       └── index.css
-│       └── i18n.js
-│   └── package-lock.json
-│   └── package.json
-│   └── .gitignore
-│
-├── server/
-│   ├── controllers/
-│       └── diseaseDetectionController.js
-│   ├── models/
-│       └── cropIssue.js
-│       └── UserInfo.js
-│   ├── routes/
-│       └── cropIssues.js
-│       └── diseaseDetection.js
-│       └── leafUpload.js
-│       └── userInfo.js         
-│   ├── uploads/
-│   ├── utils/
-│       └── geminiHelper.js       
-│   └── .env                 
-│   └── index.js
-│   └── package-lock.json
-│   └── package.json  
-└── .gitignore                       
+server/
+├── controllers/
+│   └── diseaseDetectionController.js
+├── models/
+│   ├── cropIssue.js
+│   └── UserInfo.js
+├── routes/
+│   ├── cropIssues.js
+│   ├── diseaseDetection.js
+│   ├── leafUpload.js
+│   └── userInfo.js
+├── uploads/              # Stores leaf images
+├── utils/
+│   └── geminiHelper.js   # Helper for Gemini API
+├── .env
+├── index.js              # Entry point
+├── package.json
+└── .gitignore
 ```
 
-## ⚙️ Technologies Used
+---
 
-- **Frontend:** React.js, i18next
-- **Backend:** Node.js, Express.js
-- **Databases:** MongoDB, Filesystem for uploads
-- **APIs:** Gemini 1.5 Flash, Groq LLaMA 3 70B
-- **Speech Services:** Web Speech API
+## 🔧 Customization
 
-## 🚀 Getting Started
+* Add new API endpoints in `routes/` and link them to logic in `controllers/`
+* Modify AI logic and prompt formatting in `utils/geminiHelper.js`
+* Change MongoDB schemas inside the `models/` directory
 
-### 1. Clone the repository
+---
 
-```bash
-git clone https://github.com/sanafathima-00/smart-agri-assistant.git
-```
+## 🐞 Known Issues
 
-### 2. Setup Client (Frontend)
+* Rate-limiting for AI APIs not implemented yet
+* Lacks retry logic for failed external API requests
+* Needs stronger validation and error handling
 
-```bash
-cd smart-agri-assistant/client
-npm install
-npm start
-```
+---
 
-Runs on [http://localhost:3000](http://localhost:3000)
+## 📄 License
 
-### 3. Setup Server (Backend)
+MIT License
 
-```bash
-cd smart-agri-assistant/server
-npm install
-node index.js
-```
+---
 
-Runs on [http://localhost:5000](http://localhost:5000)
+## 🙌 Acknowledgments
 
-### 4. Setup Environment Variables
-
-Create a `.env` file inside `server/` folder:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-GEMINI_API_KEY=your_gemini_api_key
-GROQ_API_KEY=your_groq_api_key
-```
+* Node.js and Express.js for backend foundation
+* MongoDB & Mongoose for flexible data modeling
+* Gemini and Groq APIs for advanced AI-powered logic
+* All testers, developers, and farmers who helped improve backend workflows
