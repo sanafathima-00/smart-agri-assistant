@@ -4,54 +4,49 @@
 
 ## 🌾 Project Overview
 
-The **Smart Agri Assistant Backend** powers the server-side logic of the Smart Agri Assistant platform. It handles user authentication, image uploads, disease detection via Gemini, multilingual response generation through Groq, and manages all MongoDB database operations securely and efficiently.
+The **Smart Agri Assistant Backend** is the core server and API layer powering the Smart Agri Assistant web application. It handles user management, image uploads, disease detection logic using Gemini, and integrates AI capabilities via Groq.
 
 ---
 
 ## ✨ Features
 
-- 🔐 Farmer authentication using phone number, user ID, and location
-- 🌿 Image upload and disease detection with **Gemini 1.5 Flash**
-- 🌍 Multilingual translation via **Groq LLaMA 3 70B**
-- 📂 RESTful API endpoints for user, crop issue, and disease routes
-- 🧠 Helper functions for model interaction and translation
-- 💾 MongoDB storage with Mongoose models
+- 📦 RESTful APIs for user authentication and crop issue submission
+- 🌿 Upload and store plant leaf images securely
+- 🧠 Disease detection via **Gemini 1.5 Flash**
+- 🌍 Translated results using **Groq LLaMA 3 70B**
+- 🔐 Secure handling of user data with MongoDB
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Runtime:** Node.js  
-- **Framework:** Express.js  
-- **Database:** MongoDB (with Mongoose)  
-- **File Handling:** Multer  
-- **AI Integration:** Gemini 1.5 Flash, Groq LLaMA 3 70B  
-- **Config & Utils:** dotenv, cors, axios
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **Database**: MongoDB
+- **AI Services**: Gemini 1.5 Flash, Groq LLaMA 3 70B
+- **File Handling**: `multer` for uploads
+- **Env Management**: `dotenv`
 
 ---
 
 ## 🚀 Installation and Setup
 
 ### Prerequisites
-
-- Node.js and npm installed  
-- MongoDB connection string  
-- API keys for Gemini and Groq
+- Node.js, npm, MongoDB
 
 ### Steps
 
 1. Navigate to the server directory:
    ```bash
    cd smart-agri-assistant/server
+   ```
 
 2. Install Dependencies:
-
    ```bash
    npm install
    ```
 
-3. Create a `.env` file with the following:
-
+3. Create `.env` file:
    ```env
    PORT=5000
    MONGODB_URI=your_mongodb_connection_string
@@ -59,13 +54,12 @@ The **Smart Agri Assistant Backend** powers the server-side logic of the Smart A
    GROQ_API_KEY=your_groq_api_key
    ```
 
-4. Start the Backend:
-
+4. Start the Server:
    ```bash
    node index.js
    ```
 
-5. Server will be running at: [http://localhost:5000](http://localhost:5000)
+5. Runs on: [http://localhost:5000](http://localhost:5000)
 
 ---
 
@@ -83,30 +77,40 @@ server/
 │   ├── diseaseDetection.js
 │   ├── leafUpload.js
 │   └── userInfo.js
-├── uploads/              # Stores leaf images
+├── uploads/
 ├── utils/
-│   └── geminiHelper.js   # Helper for Gemini API
+│   └── geminiHelper.js
 ├── .env
-├── index.js              # Entry point
+├── index.js
 ├── package.json
 └── .gitignore
 ```
 
 ---
 
+## 📦 Dependencies
+
+- express
+- mongoose
+- dotenv
+- multer
+- axios
+- cors
+
+---
+
 ## 🔧 Customization
 
-* Add new API endpoints in `routes/` and link them to logic in `controllers/`
-* Modify AI logic and prompt formatting in `utils/geminiHelper.js`
-* Change MongoDB schemas inside the `models/` directory
+- Update AI model logic in `utils/geminiHelper.js`
+- Add new endpoints in `routes/`
+- Customize MongoDB schemas in `models/`
 
 ---
 
 ## 🐞 Known Issues
 
-* Rate-limiting for AI APIs not implemented yet
-* Lacks retry logic for failed external API requests
-* Needs stronger validation and error handling
+- Rate limits from Gemini/Groq APIs may affect performance
+- No rate-limiting middleware implemented yet
 
 ---
 
@@ -118,7 +122,6 @@ MIT License
 
 ## 🙌 Acknowledgments
 
-* Node.js and Express.js for backend foundation
-* MongoDB & Mongoose for flexible data modeling
-* Gemini and Groq APIs for advanced AI-powered logic
-* All testers, developers, and farmers who helped improve backend workflows
+- Gemini and Groq API teams for open AI services
+- Express.js and MongoDB for server and storage support
+- All contributors who tested endpoints and improved API structure
